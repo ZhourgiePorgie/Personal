@@ -1,0 +1,19 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.navItem {
+    justify-content: center;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

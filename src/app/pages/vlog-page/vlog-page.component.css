@@ -1,0 +1,14 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-container {
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+h1 {
+    text-align: center;
+}

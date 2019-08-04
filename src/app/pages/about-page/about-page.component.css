@@ -1,0 +1,26 @@
+#profile-picture {
+    height: 300px;
+    width: 450px;
+}
+
+#container {
+    display: flex;
+    height: 80%;
+}
+
+#image {
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#text {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#header {
+    text-align: center;
+    font-size: xx-large;
+}

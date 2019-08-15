@@ -7,6 +7,7 @@ app-nav-bar{
 sn-scroll-spy-section {
     padding-top: 75px;
     margin-bottom: 15px;
+    height: 100vh;
 }
 
 mat-sidenav-container, mat-sidenav-content, mat-sidenav {

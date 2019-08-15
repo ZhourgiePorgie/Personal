@@ -1,14 +1,12 @@
-#container {
-    display: flex;
-    flex-direction: column;
-}
-
-.video-container {
-    margin: 0 auto;
-    padding-top: 5%;
-    padding-bottom: 2%;
-}
-
 h1 {
     text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-wrapper {
+    height: 86vh;
 }

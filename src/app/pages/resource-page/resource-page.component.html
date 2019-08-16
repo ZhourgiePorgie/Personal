@@ -1,1 +1,15 @@
-<p>resource-page works!</p>
+<h1>Resources</h1>
+<div ngClass.xs='intro-xs'>
+    <p>
+        Here are some crash course resources that I've created for CS61B (Data Structures) at UC Berkeley.
+        Each resource comes along with a tl;dr section for those of you too lazy to read the, what I'd like
+        to think already short, crash course.
+    </p>
+</div>
+<div fxLayout.xs='column' ngClass.gt-sm='resources-container' ngClass.lt-md='resources-container-xs'>
+    <div ngClass.gt-xs='button-container' ngClass.xs='button-container-xs' *ngFor='let file of files'>
+        <button mat-raised-button color='accent' ngClass.gt-xs='button' ngClass.xs='button-xs' (click)='openFile(file)'>
+            {{ file.split('_').join(' ') }}
+        </button>
+    </div>
+</div>

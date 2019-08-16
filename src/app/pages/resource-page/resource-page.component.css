@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.resources-container {
+    text-align: center;
+    margin: 0 5vw;
+    column-count: 2;
+}
+
+.button-container {
+    margin: 20px 15vw 0px 15vw;
+    display: inline-block;
+}
+
+.button-container-xs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 15px 0px 15px;
+}
+
+.button {
+    width: 250px;
+}
+
+.button-xs {
+    width: 200px;
+}
+
+.intro {
+
+}
+
+.intro-xs {
+    padding: 0px 5vw;
+}

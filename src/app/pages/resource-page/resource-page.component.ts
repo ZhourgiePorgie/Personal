@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResourcePageComponent implements OnInit {
 
+  files = [
+    'Java_Basics',
+    'Inheritance',
+    'Interfaces',
+    'Abstract_Classes',
+    'LinkedLists',
+    'Asymptotic_Analysis'
+  ]
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public openFile(file: String) {
+    const url = '../assets/resources/' + file + '.pdf';
+    window.open(url, '_blank');
   }
 
 }

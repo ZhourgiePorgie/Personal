@@ -22,7 +22,7 @@ export class ResourcePageComponent implements OnInit {
   }
 
   public openFile(file: String) {
-    const url = 'Personal/assets/resources/' + file + '.pdf';
+    const url = 'assets/resources/' + file + '.pdf';
     window.open(url, '_blank');
   }
 

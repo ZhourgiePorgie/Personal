@@ -5,10 +5,14 @@
         </button>
     </div>
     <div>
-        <a href="#">Home</a>
+        <a fxHide.xs>ZhourgiePorgie</a>
+        <a fxHide.gt-xs>Menu</a>
     </div>
     <div fxFlex fxLayout fxLayoutAlign="end" fxHide.xs>
         <ul fxLayout fxLayoutGap="15px" class="navigation-items" role="navigation" snScrollSpy id="main-nav">
+            <li>
+                <a snScrollSpyItem for="main-nav" href="#home">Home</a>
+            </li>
             <li>
                 <a snScrollSpyItem for="main-nav" href="#about">About</a>
             </li>

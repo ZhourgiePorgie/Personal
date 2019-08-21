@@ -1,14 +1,35 @@
 <div fxFlex fxLayout id='container'>
-    <h1>About</h1>
-    <div id='image'>
-        <img id='profile-picture' src='assets/img/Smile_Square.JPG'>
-    </div>
-    <div id='text'>
-        <div id='header'>
-            <p>About George</p>
+    <div fxHide.xs id='content'>
+        <h1>About George</h1>
+        <div id="information">
+            <div id="picture">
+                <img src="assets/img/Smoothie.jpg">
+            </div>
+            <div id='text'>
+                <p class='norm'>
+                    I am currently a third year at the Univeristy of California, Berkeley studying Computer Science.
+                    I enjoy all kinds of software development.  As long as I'm building something, I'm having a good time!
+                </p>
+                <p class='norm'>
+                    Aside from development, I enjoy keeping up with the League Championship Series (LCS) and my favorite team Cloud9.
+                    Board and card games are another one of my hobbies and are AMAZING.
+                    I also teach Data Structures (CS61B) at Berkeley and you can find my resources for the course below.
+                </p>
+            </div>
         </div>
-        <div id='content'>
-            <p>I am...whatever I am</p>
+    </div>
+    <div fxHide.gt-xs id='content'>
+        <h1>About George</h1>
+        <div>
+            <p>
+                I am currently a third year at the Univeristy of California, Berkeley studying Computer Science.
+                I enjoy all kinds of software development.  As long as I'm building something, I'm having a good time!
+            </p>
+            <p>
+                Aside from development, I enjoy keeping up with the League Championship Series (LCS) and my favorite team Cloud9.
+                Board and card games are another one of my hobbies and are AMAZING.
+                I also teach Data Structures (CS61B) at Berkeley and you can find my resources for the course below.
+            </p>
         </div>
     </div>
 </div>

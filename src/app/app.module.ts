@@ -13,13 +13,15 @@ import { InViewportModule } from '@thisissoon/angular-inviewport';
 import { ScrollSpyModule } from '@thisissoon/angular-scrollspy';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomePageComponent } from './pages/home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     routingComponents,
-    SideNavComponent
+    SideNavComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,

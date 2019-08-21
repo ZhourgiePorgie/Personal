@@ -1,13 +1,11 @@
-app-nav-bar{
+main {
+    padding: 0px;
+}
+
+app-nav-bar {
     width: 100%;
     position: fixed;
     z-index: 1;
-}
-
-sn-scroll-spy-section {
-    padding-top: 75px;
-    margin-bottom: 15px;
-    height: 100vh;
 }
 
 mat-sidenav-container, mat-sidenav-content, mat-sidenav {
@@ -16,4 +14,33 @@ mat-sidenav-container, mat-sidenav-content, mat-sidenav {
  
 mat-sidenav {
     width: 250px;
+}
+
+.space {
+    height: 50px;
+}
+
+.home {
+    background: #f2d1ff;
+}
+
+sn-scroll-spy-section {
+    padding-top: 64px;
+    height: 100vh;
+}
+
+.about {
+    background: #bdffdc;
+}
+
+.resources {
+    background: #bdfff7;
+}
+
+.vlogs {
+    background: #ffe6f4;
+}
+
+.interests {
+    background: #fffcbd;
 }

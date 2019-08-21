@@ -1,0 +1,55 @@
+h1, h6 {
+    text-align: center;
+}
+
+.profile {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.profile-xs {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+#links-container {
+    height: 125px;
+    width: 345px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.link {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.link-xs {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.link-img {
+    height: 100%;
+    width: 100%;
+}

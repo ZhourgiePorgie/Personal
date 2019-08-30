@@ -14,6 +14,7 @@ import { ScrollSpyModule } from '@thisissoon/angular-scrollspy';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { InterestsPageComponent } from './pages/interests-page/interests-page.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     NavBarComponent,
     routingComponents,
     SideNavComponent,
-    HomePageComponent
+    HomePageComponent,
+    InterestsPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+.interests-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 3vw;
+    column-count: 2;
+}
+
+.card-container {
+    padding-top: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+mat-card {
+    height: 500px;
+    width: 350px;
+}

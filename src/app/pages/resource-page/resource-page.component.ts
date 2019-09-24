@@ -13,7 +13,9 @@ export class ResourcePageComponent implements OnInit {
     'Interfaces',
     'Abstract_Classes',
     'LinkedLists',
-    'Asymptotic_Analysis'
+    'Asymptotic_Analysis',
+    'Trees',
+    'BST'
   ]
 
   constructor() { }

@@ -9,6 +9,7 @@ export class ResourcePageComponent implements OnInit {
 
   files = [
     'Java_Basics',
+    'Recursion',
     'Inheritance',
     'Interfaces',
     'Abstract_Classes',

@@ -16,7 +16,8 @@ export class ResourcePageComponent implements OnInit {
     'LinkedLists',
     'Asymptotic_Analysis',
     'Trees',
-    'BST'
+    'BST',
+    'Hashing'
   ]
 
   constructor() { }

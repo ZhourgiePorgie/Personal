@@ -17,6 +17,7 @@ export class ResourcePageComponent implements OnInit {
     'Asymptotic_Analysis',
     'Trees',
     'BST',
+    'Game_Trees',
     'Hashing'
   ]
 
